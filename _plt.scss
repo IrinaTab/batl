@@ -1,0 +1,41 @@
+@media (max-width: 1024px) {
+    .center {
+        padding-left: calc(50% - 904px/2);
+        padding-right: calc(50% - 904px/2);
+    }
+    .header {
+        &__logo-img {
+            width: 244px;
+            margin-top: 10px;
+        }
+        &__btn {
+            width: 135px;
+            height: 42px;
+        }
+    }
+    .main-content {
+        padding-left: 60px;
+        &__btn {
+            width: 275px;
+            height: 39px;
+        }
+    }
+    .title-big {
+        color: rgb(69, 64, 61);
+        font-size: 28px;
+        line-height: 34px;
+    }
+    .title-small {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .text-about {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .main-content__btn {
+        width: 266px;
+        height: 32px;
+        padding: 5px 30px 5px 30px;
+    }
+}
